@@ -3,10 +3,74 @@
     
     <head>
         <meta charset="utf-8" />
-        <title>Page Title</title>
+        <title>Amanda Ferraro's Contact Page</title>
+        <link rel= "stylesheet" type= "text/css" href= "assets/css/style.css"/>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     </head>
     <body>
-    
+        
+        <nav class="navbar navbar-light bg-light">
+            <span class="navbar-brand mb-0 h1">Amanda Ferraro</span>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Conact</a>
+                </li>
+            </ul>
+        </nav> 
+<br>   
+        <div class="container">
+            
+            <div class="row">
+
+                <div class="col-md-3">
+                </div>
+
+                <div class="col-md-6">
+                    <h1>Contact</h1>
+                </div>
+
+                <div class="col-md-3">
+                </div>
+            </div>
+            <div class="row">
+                
+                <div class="col-md-3">
+                </div>
+
+                <div class="col-md-6">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Amanda Ferraro"
+                            required="required">
+                        </div>
+                
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text" class="form-control" name="email" id="email" placeholder="amandaferraro41@gmail.com"
+                            required="required">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="3"
+                            required="required"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Submit</button>
+
+                     </form>
+                </div>
+
+                <div class="col-md-3">
+                </div>
+            </div>
+        </div>
     </body>
 </html>
